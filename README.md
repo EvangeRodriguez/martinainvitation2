@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Invitation Card for 15th Birthday Party 🎉👗
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the celebration of Martina's fifteenth birthday! 🌟
 
-Currently, two official plugins are available:
+## About the Event
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The 15th Birthday Party is an Argentine tradition that marks a special moment in a young woman's life. It's an event filled with joy, music, dance, and tradition, where the quinceañera is the center of attention and creates lasting memories for her and her family.
 
-## Expanding the ESLint configuration
+## Event Details 📅🕰️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Date:** [Event Date]
+- **Time:** [Event Start Time]
+- **Location:** [Location Address]
 
-- Configure the top-level `parserOptions` property like this:
+## Important Information 📝
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Attire:** [Indicate Appropriate Attire]
+- **RSVP:** [RSVP Form]
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Project
+
+This project is being developed using React + Vite. The README.md will be updated as the project progresses.
+
+We hope to have you join us to celebrate this special day! 💃🎶
+
+Thank you for being part of this unforgettable moment! ✨
+
+---
+
+*Note: Please stay tuned for future updates regarding the 15th Birthday Party.*

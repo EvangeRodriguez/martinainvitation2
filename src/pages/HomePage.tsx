@@ -1,6 +1,7 @@
 import Agenda from "../components/Agenda/Agenda";
 import Fecha from "../components/Fecha/Fecha";
 import Quince from "../components/Quince/Quice";
+import Reloj from "../components/Reloj/Reloj";
 
  
 
@@ -14,7 +15,12 @@ import Quince from "../components/Quince/Quice";
         </div>
         <div className='fecha'>
           <Fecha />
-        </div></>
+        </div>
+        <div className='reloj'>
+          <Reloj />
+        </div>
+        
+        </>
        
     )
   }

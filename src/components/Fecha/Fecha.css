@@ -11,3 +11,15 @@
   color: #4a5e7e
 }
 
+
+
+@media (max-width: 768px) {
+    .fecha{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 30px;
+      width: 100%;
+      padding: 0;
+    }
+  }

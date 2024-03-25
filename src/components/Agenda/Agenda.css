@@ -10,3 +10,15 @@
   font-family: 'Josefin Sans', sans-serif;
   color: #4a5e7e
 }
+
+@media (max-width: 768px) {
+  .agenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+    width: 100%;
+    padding: 0;
+  }
+}

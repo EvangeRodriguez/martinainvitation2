@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+  
+.fecha{
+  display: flex; /* Utiliza flexbox para alinear verticalmente */
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
+  font-size: 30px;
+  font-weight: 700;  
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4a5e7e
+}
+

@@ -1,36 +1,16 @@
+
 * {
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-transform: none;
   overflow: hidden;
-  background-image: url('/fondo.jpg');
+}
+
+:root{
+  background-image: url('/fondo1.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+  }
 
-h1 {
-  font-size: 25px;
-}
 
-h2 {
-  font-size: 15px;
-}
-p {
-  font-size: 12px;
-}
-
-.body {
-  margin: auto;
-}
-
- :root {
-  font-family: 'Poppins', sans-serif;
-  color: black;
-}
-.inicio{
-  font-size: 18px;
-  line-height: 1.5
-  
-}

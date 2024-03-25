@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+  
+.outfit {
+    display: flex; /* Utiliza flexbox para alinear verticalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4a5e7e;
+  }
+
+  .ropa{
+    display: flex; /* Utiliza flexbox para alinear verticalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .outfit {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 30px;
+      width: 100%;
+      padding: 0;
+    }
+  }

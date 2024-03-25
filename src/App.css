@@ -5,6 +5,7 @@
   box-sizing: border-box;
   text-transform: none;
   overflow: hidden;
+  overflow-y: auto;  
 }
 
 :root{

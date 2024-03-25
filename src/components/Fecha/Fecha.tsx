@@ -1,4 +1,3 @@
-import React from 'react'
 import './Fecha.css'
 
 export default function Fecha() {

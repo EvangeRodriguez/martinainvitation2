@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Sedan:ital@0;1&display=swap');
+
 .clock {
-    text-align: center;
+  font-family: 'Sedan', serif; 
+  text-align: center;
     font-size: 24px;
     margin-top: 10px;
     animation: pulse 1s infinite alternate; /* Añade una animación de pulso */
   }
   
   .time {
+    font-family: 'Sedan', serif;
     font-size: 36px;
     font-weight: bold;
     color: #333; /* Cambia el color del texto */
   }
   
   .flip-clock {
-    display: inline-flex;
+    
+  display: inline-flex;
     justify-content: center;
   }
   

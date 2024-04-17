@@ -7,7 +7,7 @@ export default function Fecha() {
     Sábado 2 de Noviembre
         </p>
        <p className='fecha'>
-            21:30hs
+            21:00hs
        </p>
   </div>
   )

@@ -1,5 +1,4 @@
- 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
 
 
 .quince{
@@ -8,8 +7,8 @@
   justify-content: center; /* Centra horizontalmente */
   margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
   font-size: 100px;
-  font-weight: 700;  
-  font-family: "Pacifico", cursive;
+  font-weight: 650;  
+  font-family: "Dancing Script", "cursive";
   color: #4a5e7e
 }
 

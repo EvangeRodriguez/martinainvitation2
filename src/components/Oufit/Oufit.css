@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Sedan:ital@0;1&display=swap');
+
   
 .outfit {
     display: flex; /* Utiliza flexbox para alinear verticalmente */
@@ -6,7 +7,7 @@
     justify-content: center; /* Centra horizontalmente */
     margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
     font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Sedan', serif;
     color: #4a5e7e;
   }
 

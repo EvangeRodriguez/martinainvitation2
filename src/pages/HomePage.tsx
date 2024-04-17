@@ -6,6 +6,7 @@ import Forms from "../components/Formulario/Forms";
 import Oufit from "../components/Oufit/Oufit";
 import Quince from "../components/Quince/Quice";
 import Reloj from "../components/Reloj/Reloj";
+import Spotify from "../components/Spotify/Spotify";
 
  
 
@@ -34,6 +35,9 @@ import Reloj from "../components/Reloj/Reloj";
         </div>
         <div className='reloj'>
           <Forms/>
+        </div>
+        <div className='reloj'>
+          <Spotify/>
         </div>
         </>
        

@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
-
-
   
-.fecha{
+.musica{
   display: flex; /* Utiliza flexbox para alinear verticalmente */
   align-items: center; /* Centra verticalmente */
   justify-content: center; /* Centra horizontalmente */
-  margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
-  font-size: 30px;
-  font-weight: 700;  
-  font-family: 'Sedan', serif;
-  color: #4a5e7e
+  margin-top: 10px;
+  width: 15%;
+  margin: auto;
 }
 
 

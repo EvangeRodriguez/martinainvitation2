@@ -3,7 +3,7 @@ import './Forms.css';
 
 export default function Forms() {
   const redirectToGoogleForms = () => {
-    window.location.href = 'https://docs.google.com/forms/u/0/';
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeovlhXhyzT4kcL07ciHa3y6ihyLLHTBUONoJVufkOjqjqKWw/viewform', '_blank');
   };
 
   return (

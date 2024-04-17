@@ -1,0 +1,17 @@
+.spotifyImg {
+    width: 20px;
+    height: 10px;
+    margin: 0 10px;
+  }
+  
+  .fotosImg {
+    width: 20px;
+    height: 10px;
+    margin: 0 10px;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+     }
+  

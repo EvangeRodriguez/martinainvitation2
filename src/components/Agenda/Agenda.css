@@ -4,7 +4,7 @@
   display: flex; /* Utiliza flexbox para alinear verticalmente */
   align-items: center; /* Centra verticalmente */
   justify-content: center; /* Centra horizontalmente */
-  margin-top: 50px; /* Ajusta el margen superior para desplazar hacia abajo */
+  margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
   font-size: 50px;
   font-weight: 700;  
   font-family: "Dancing Script", "cursive";

@@ -1,8 +1,10 @@
 import Agenda from "../components/Agenda/Agenda";
+import Anexos from "../components/Anexos/Anexos";
 import Calendario from "../components/Calendario/Calendario";
 import Direccion from "../components/Direccion/Direccion";
 import Fecha from "../components/Fecha/Fecha";
 import Forms from "../components/Formulario/Forms";
+import Fotos from "../components/Fotos/Fotos";
 import Oufit from "../components/Oufit/Oufit";
 import Quince from "../components/Quince/Quice";
 import Reloj from "../components/Reloj/Reloj";
@@ -24,21 +26,21 @@ import Spotify from "../components/Spotify/Spotify";
         <div className='reloj'>
           <Reloj />
         </div>
-        <div className='reloj'>
+        <div className='direccion'>
           <Direccion />
         </div>
-        <div className='reloj'>
+        <div className='oufit'>
           <Oufit/>
         </div>
-        <div className='reloj'>
+        <div className='calendario'>
           <Calendario />
         </div>
-        <div className='reloj'>
+        <div className='forms'>
           <Forms/>
         </div>
-        <div className='reloj'>
-          <Spotify/>
-        </div>
+       <div className="anexo">
+        <Anexos/>
+       </div>
         </>
        
     )

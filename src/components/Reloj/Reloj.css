@@ -82,4 +82,14 @@
     }
   }
   
-  
+
+  @media (max-width: 768px) {
+  .clock-mobile {
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+
+  .time {
+    font-size: 28px;
+  }
+}

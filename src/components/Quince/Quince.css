@@ -1,24 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
 
 
-.quince{
-  display: flex; /* Utiliza flexbox para alinear verticalmente */
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
-  margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
+/* pa el contenedor */
+.container_quince {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pa h1 y p */
+.quince {
   font-size: 100px;
-  font-weight: 650;  
+  font-weight: 650;
   font-family: "Dancing Script", "cursive";
-  color: #4a5e7e
+  color: #4a5e7e;
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* pa separacion de p */
+.quince-p {
+  margin-left: 25px;
 }
 
 @media (max-width: 768px) {
-    .quince{
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-      font-size: 80px;
-      width: 100%;
-      padding: 0;
-    }
+  .container_quince {
+    flex-direction: column;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
   }
+
+  .quince {
+    font-size: 80px;
+  }
+
+  .quince-p {
+    margin-left: 0;
+  }
+}

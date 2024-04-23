@@ -9,22 +9,25 @@
     font-size: 20px;
     font-family: 'Sedan', serif;
     color: #4a5e7e;
+}
+
+.ropa{
+  margin-top: 15px;
+}
+
+.map-image {
+  width: 75px;
+  margin-right: 7px;
+}
+
+@media (max-width: 768px) {
+  .outfit {
+    margin-top: 15px;
+    font-size: 20px;
   }
 
-  .ropa{
-    display: flex; /* Utiliza flexbox para alinear verticalmente */
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    margin-top: 10px;
+  .map-image {
+    width: 75px;
+    margin-right: 15px;
   }
-  
-  @media (max-width: 768px) {
-    .outfit {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-      font-size: 30px;
-      width: 100%;
-      padding: 0;
-    }
-  }
+}

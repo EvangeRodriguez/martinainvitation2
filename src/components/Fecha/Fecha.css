@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
-
-
   
+.container_fecha{
+  text-align: center;
+}
+
 .fecha{
   display: flex; /* Utiliza flexbox para alinear verticalmente */
   align-items: center; /* Centra verticalmente */
@@ -13,14 +15,12 @@
   color: #4a5e7e
 }
 
-
-
 @media (max-width: 768px) {
     .fecha{
       display: flex;
       justify-content: center;
       margin-top: 20px;
-      font-size: 30px;
+      font-size: 25px;
       width: 100%;
       padding: 0;
     }

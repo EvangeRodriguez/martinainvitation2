@@ -1,17 +1,19 @@
-.spotifyImg {
-    width: 20px;
-    height: 10px;
-    margin: 0 10px;
+.Anexos {
+  display: flex;
+  justify-content:center; 
+  gap: 20px; /* espacio entre imagene */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.spotifyImg 
+.fotosImg{
+  display: inline-block;
+}
+  
+@media (max-width: 768px) {
+  .Anexos {
+    flex-direction: column;
   }
-  
-  .fotosImg {
-    width: 20px;
-    height: 10px;
-    margin: 0 10px;
-  }
-  
-  
-  
-  @media (max-width: 768px) {
-     }
+}
   

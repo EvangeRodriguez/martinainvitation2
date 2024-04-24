@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Reloj.css';
 
-const Reloj: React.FC = () => {
+interface RelojProps {}
+
+const Reloj: React.FC<RelojProps> = () => {
   const [days, setDays] = useState<number>(0);
   const [hours, setHours] = useState<number>(0);
   const [minutes, setMinutes] = useState<number>(0);
@@ -36,7 +38,22 @@ const Reloj: React.FC = () => {
   return (
     <div className="clock clock-mobile">
       <div className="time">
-        {days} : {hours < 10 ? `0${hours}` : hours} : {minutes < 10 ? `0${minutes}` : minutes} : {seconds < 10 ? `0${seconds}` : seconds}
+        <div className="time-part-container">
+          <div className="time-part">{days}</div>
+          <div className="time-label">Días</div>
+        </div>
+        <div className="time-part-container">
+          <div className="time-part">{hours < 10 ? `0${hours}` : hours}</div>
+          <div className="time-label">Hs</div>
+        </div>
+        <div className="time-part-container">
+          <div className="time-part">{minutes < 10 ? `0${minutes}` : minutes}</div>
+          <div className="time-label">Min</div>
+        </div>
+        <div className="time-part-container">
+          <div className="time-part">{seconds < 10 ? `0${seconds}` : seconds}</div>
+          <div className="time-label">Seg</div>
+        </div>
       </div>
     </div>
   );

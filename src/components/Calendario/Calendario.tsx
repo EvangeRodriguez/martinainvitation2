@@ -7,7 +7,8 @@ export default function Calendario() {
         <img src="calendar.png" alt="mapa" className="calendar-img" />
         <div className='asistencia'>
           <p >¿Venis?</p>
-          <p>¡Confirma asistencia!</p>
+          <p>¡Confirma asistencia</p>
+          <p>hasta el 15 de Octubre!</p>
         </div>
       </div>
     </div>

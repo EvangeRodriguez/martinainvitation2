@@ -7,6 +7,7 @@ import Mapa from "../components/Direccion/Mapa";
 import Fecha from "../components/Fecha/Fecha";
 import Forms from "../components/Formulario/Forms";
 import Oufit from "../components/Oufit/Oufit";
+import Precios from "../components/Precios/Precios";
 import Quince from "../components/Quince/Quince";
 import Reloj from "../components/Reloj/Reloj";
 import "./HomePage.css";
@@ -42,8 +43,8 @@ export default function HomePage() {
           <Mapa />
         </div>
 
-        <div className='oufit'>
-          <Oufit />
+               <div className='oufit'>
+          <Precios/>
         </div>
 
         <div className='calendario'>
@@ -54,6 +55,10 @@ export default function HomePage() {
           <Forms />
         </div>
 
+        <div className='oufit'>
+          <Oufit />
+        </div>
+
         <div className='fotos'>
           <Fotos />
         </div>
@@ -61,6 +66,8 @@ export default function HomePage() {
         <div className='fotos'>
           <Drive />
         </div>
+
+      
 
       </div>
     </>

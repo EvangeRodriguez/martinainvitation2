@@ -1,14 +1,12 @@
 import Agenda from "../components/Agenda/Agenda";
-import Anexos from "../components/Anexos/Anexos";
 import Calendario from "../components/Calendario/Calendario";
 import Direccion from "../components/Direccion/Direccion";
+import Mapa from "../components/Direccion/Mapa";
 import Fecha from "../components/Fecha/Fecha";
 import Forms from "../components/Formulario/Forms";
-import Fotos from "../components/Fotos/Fotos";
 import Oufit from "../components/Oufit/Oufit";
 import Quince from "../components/Quince/Quince";
 import Reloj from "../components/Reloj/Reloj";
-import Spotify from "../components/Spotify/Spotify";
 import "./HomePage.css";
 
 
@@ -38,6 +36,10 @@ export default function HomePage() {
           <Direccion />
         </div>
 
+        <div className='mapa'>
+          <Mapa />
+        </div>
+
         <div className='oufit'>
           <Oufit />
         </div>
@@ -50,9 +52,6 @@ export default function HomePage() {
           <Forms />
         </div>
 
-        <div className="anexo">
-          <Anexos />
-        </div>
       </div>
     </>
 

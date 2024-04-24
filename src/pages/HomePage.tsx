@@ -1,4 +1,6 @@
 import Agenda from "../components/Agenda/Agenda";
+import Drive from "../components/Anexos/Drive";
+import Fotos from "../components/Anexos/Fotos";
 import Calendario from "../components/Calendario/Calendario";
 import Direccion from "../components/Direccion/Direccion";
 import Mapa from "../components/Direccion/Mapa";
@@ -50,6 +52,14 @@ export default function HomePage() {
 
         <div className='forms'>
           <Forms />
+        </div>
+
+        <div className='fotos'>
+          <Fotos />
+        </div>
+
+        <div className='fotos'>
+          <Drive />
         </div>
 
       </div>

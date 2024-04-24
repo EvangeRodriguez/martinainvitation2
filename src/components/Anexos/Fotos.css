@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Sedan:ital@0;1&display=swap');
+
+.fotos{
+    display: flex; /* Utiliza flexbox para alinear verticalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 10px; /* Ajusta el margen superior para desplazar hacia abajo */
+    font-size: 20px;
+    font-family: 'Sedan', serif;
+    color: #4a5e7e;
+}
+
+.camara-img {
+    margin-right: 7px; 
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .fotos {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    
+    .camara-img {
+      width: 60px;
+      margin-right: 15px;
+    }
+    }

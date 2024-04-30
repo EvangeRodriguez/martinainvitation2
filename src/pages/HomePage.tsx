@@ -5,6 +5,7 @@ import Calendario from "../components/Calendario/Calendario";
 import Direccion from "../components/Direccion/Direccion";
 import Mapa from "../components/Direccion/Mapa";
 import Fecha from "../components/Fecha/Fecha";
+import Fin from "../components/Fin/Fin";
 import Forms from "../components/Formulario/Forms";
 import Oufit from "../components/Oufit/Oufit";
 import Precios from "../components/Precios/Precios";
@@ -67,7 +68,9 @@ export default function HomePage() {
           <Drive />
         </div>
 
-      
+      <div className="saludo">
+    <Fin/>
+      </div>
 
       </div>
     </>

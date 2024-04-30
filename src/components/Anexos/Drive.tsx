@@ -2,7 +2,7 @@ import './Drive.css'
 
 export default function Drive() {
     const redirectoDrive = () => {
-        window.open('https://bit.ly/Recuerdos15sMarti', '_blank');
+        window.open(' https://photos.app.goo.gl/FNWDbXYtHgcfsmRBA ', '_blank');
       };
   return (
     <div>

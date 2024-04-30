@@ -8,7 +8,6 @@ import Fecha from "../components/Fecha/Fecha";
 import Fin from "../components/Fin/Fin";
 import Forms from "../components/Formulario/Forms";
 import Oufit from "../components/Oufit/Oufit";
-import Precios from "../components/Precios/Precios";
 import Quince from "../components/Quince/Quince";
 import Reloj from "../components/Reloj/Reloj";
 import "./HomePage.css";
@@ -42,10 +41,6 @@ export default function HomePage() {
 
         <div className='mapa'>
           <Mapa />
-        </div>
-
-               <div className='oufit'>
-          <Precios/>
         </div>
 
         <div className='calendario'>

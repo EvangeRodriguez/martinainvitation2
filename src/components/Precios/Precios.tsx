@@ -2,9 +2,8 @@ import './Precios.css'
 
 export default function Precios() {
   return (
-    <div>
-          <div className="precio" style={{ display: "flex", alignItems: "center" }}>
-        <div className='valor-tarjeta1'>
+    <div className="precio">
+      <div className='valor-tarjeta1'>
           <h1 >Valor de la tarjeta</h1>
           <h2>Menores de 4 años:</h2>          <p>Gratis</p>
         </div>
@@ -28,6 +27,6 @@ export default function Precios() {
         <p>Enviar comprobante al: 351-6575608 </p>
         </div>
       </div>
-    </div>
+   
   )
 }

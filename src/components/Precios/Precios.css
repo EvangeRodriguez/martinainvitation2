@@ -50,6 +50,15 @@
       .valor-tarjeta3 p,
       .valor-tarjeta4 p {
         margin: 10px 0; /* Espaciado entre los elementos h1, h2 y p */
+        font-size: 30px;
+      }
+
+      .valor-tarjeta1 p,
+      .valor-tarjeta2 p,
+      .valor-tarjeta3 p,
+      .valor-tarjeta4 p {
+        font-size: 25px;
+
       }
   }
   

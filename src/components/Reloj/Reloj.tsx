@@ -39,15 +39,15 @@ const Reloj: React.FC<RelojProps> = () => {
     <div className="clock clock-mobile">
       <div className="time">
         <div className="time-part-container">
-          <div className="time-part">{days}</div>
+          <div className="time-part">{days} :</div>
           <div className="time-label">Días</div>
         </div>
         <div className="time-part-container">
-          <div className="time-part">{hours < 10 ? `0${hours}` : hours}</div>
+          <div className="time-part">{hours < 10 ? `0${hours}` : hours} :</div>
           <div className="time-label">Hs</div>
         </div>
         <div className="time-part-container">
-          <div className="time-part">{minutes < 10 ? `0${minutes}` : minutes}</div>
+          <div className="time-part">{minutes < 10 ? `0${minutes}` : minutes} :</div>
           <div className="time-label">Min</div>
         </div>
         <div className="time-part-container">

@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Sedan:ital@0;1&display=swap');
   
 .precio {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: 'Sedan', serif;
+    text-align: center; /* Centra el texto dentro de los elementos */
     color: #4a5e7e;
-    padding: 10px;
-}
+  }
 
+  .valor-tarjeta1,
+  .valor-tarjeta2,
+  .valor-tarjeta3,
+  .valor-tarjeta4 {
+    margin-bottom: 20px; /* Espaciado entre cada div */
+  }
 
+  .valor-tarjeta1 h1,
+  .valor-tarjeta2 h2,
+  .valor-tarjeta3 h2,
+  .valor-tarjeta4 h2,
+  .valor-tarjeta1 p,
+  .valor-tarjeta2 p,
+  .valor-tarjeta3 p,
+  .valor-tarjeta4 p {
+    margin: 10px 0; /* Espaciado entre los elementos h1, h2 y p */
+  }
 
-.valor-tarjeta1 h1,
-.valor-tarjeta2 h2,
-.valor-tarjeta3 h2,
-.valor-tarjeta4 h2 {
-    font-size: 24px; /* Modifica el tamaño de los elementos h1 y h2 */
-}
-
-.valor-tarjeta1 h2,
-.valor-tarjeta2 h2,
-.valor-tarjeta3 h2,
-.valor-tarjeta4 h2 {
-    font-size: 20px; /* Modifica el tamaño de los elementos h1 y h2 */
-}
 @media (max-width: 768px) {
     .precio {
         flex-direction: column;

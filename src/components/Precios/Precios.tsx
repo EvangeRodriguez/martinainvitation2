@@ -24,7 +24,7 @@ export default function Precios() {
         <p>JUDEMARINIS</p>
         <p>Recomendamos poner como referencia tu nombre
 </p>
-        <p>Enviar comprobante al: 351-6575608 </p>
+        <p>Enviar comprobante al: 3516575608 </p>
         </div>
       </div>
    
